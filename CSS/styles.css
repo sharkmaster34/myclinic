@@ -1,0 +1,109 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.15rem;
+  background-color: #e9e9f3;
+}
+
+p {
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #004080;
+  text-align: left;
+}
+
+li {
+  font-size: 1rem;
+}
+
+.custom-navbar {
+  background-color: #004080;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffd700 !important;
+  text-decoration: underline;
+}
+
+.custom-navbar .form-control {
+  border-radius: 0;
+}
+
+.custom-navbar .btn-outline-success {
+  color: #fff;
+  border-color: #fff;
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: #fff;
+  color: #004080;
+}
+
+.custom-navbar .navbar-brand img {
+  max-height: 100px;
+  width: auto;
+}
+
+.full-width-card .card {
+  width: 100%;
+  max-width: none;
+}
+
+.full-width-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #004080;
+  border-color: #004080;
+}
+
+.btn-primary:hover {
+  background-color: #003366;
+  border-color: #004080;
+}
+
+li {
+  font-size: 1rem;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
